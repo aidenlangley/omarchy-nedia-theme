@@ -1,0 +1,29 @@
+[controls]
+normal-border-width = 1
+hover-cursor-border-width = 1
+focus-border-width = 1
+selected-border-width = 1
+
+[font]
+base-size = 14
+
+[popups]
+border-width = 1
+
+[tooltip]
+border-width = 1
+
+[notifications]
+border-width = 1
+
+[launcher]
+border-width = 1
+
+[menu]
+border-width = 1
+
+[polkit]
+border-width = 1
+
+[lock]
+border-width = 1
