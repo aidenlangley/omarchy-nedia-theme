@@ -10,7 +10,61 @@ Basically just the default gruvbox, with [harbordark](https://github.com/HANCORE
 
 ```sh
 omarchy theme install https://github.com/aidenlangley/omarchy-nedia-theme.git
-omarchy theme set nedia
+```
+
+## Hyprland
+
+```lua
+hl.config({
+  decoration = {
+    active_opacity = 1,
+    inactive_opacity = 1,
+
+    border_part_of_window = true,
+
+    dim_inactive = true,
+    dim_strength = 0.2,
+
+    blur = {
+      enabled = true,
+    },
+
+    shadow = {
+      enabled = true,
+    },
+  },
+
+  dwindle = {
+    default_split_ratio = 0.9,
+    split_width_multiplier = 1.1,
+  },
+
+  general = {
+    border_size = 1,
+
+    gaps_in = 2,
+    gaps_out = 4,
+
+    col = {
+      active_border = "rgb(bdae93)",
+      nogroup_border_active = "rgb(bdae93)",
+    },
+  },
+
+  group = {
+    col = {
+      border_active = "rgb(bdae93)",
+      border_locked_active = "rgb(bdae93)",
+    },
+
+    groupbar = {
+      font_size = 12,
+
+      height = 24,
+      indicator_height = 0,
+    },
+  },
+})
 ```
 
 ## Plugins
@@ -53,4 +107,31 @@ omarchy bar move omarchy.audio --after omarchy.monitor
 omarchy bar move jankeesvw.notification-center --after omarchy.audio
 omarchy bar move omarchy.clock --after jankeesvw.notification-center
 omarchy bar move omarchy.weather --after omarchy.clock
+```
+
+## Neovim
+
+```lua
+return {
+  {
+    "ellisonleao/gruvbox.nvim",
+    priority = 1000,
+    opts = {
+      italic = {
+        strings = false,
+        comments = false,
+        operators = false,
+        folds = true,
+      },
+      contrast = "hard",
+      transparent_mode = true,
+    },
+  },
+  {
+    "LazyVim/LazyVim",
+    opts = {
+      colorscheme = "gruvbox",
+    },
+  },
+}
 ```
