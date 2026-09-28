@@ -2,15 +2,20 @@
 
 Basically just the default gruvbox, with [harbordark](https://github.com/HANCORE-linux/omarchy-harbordark-theme) background, and other small tweaks.
 
-![CleanDesktop](preview001.png)
-![TerminalsHerdr](preview002.png)
-![NeovimBrowser](preview003.png)
+![Wallpaper](nedia_wallpaper.png)
+![Terminals](nedia.png)
+![BrowserFastFetch](nedia_browser_fastfetch.png)
+![Busy](nedia.png)
 
 ## Install
 
 ```sh
 omarchy theme install https://github.com/aidenlangley/omarchy-nedia-theme.git
 ```
+
+## Font
+
+`MesloLGL Nerd Font`.
 
 ## Hyprland
 
