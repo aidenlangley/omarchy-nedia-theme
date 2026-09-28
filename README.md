@@ -5,7 +5,7 @@ Basically just the default gruvbox, with [harbordark](https://github.com/HANCORE
 ![Wallpaper](nedia_wallpaper.png)
 ![Terminals](nedia.png)
 ![BrowserFastFetch](nedia_browser_fastfetch.png)
-![Busy](nedia.png)
+![Busy](nedia_busy.png)
 
 ## Install
 
